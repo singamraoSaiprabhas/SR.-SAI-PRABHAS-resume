@@ -1,5 +1,5 @@
 @media print{
-  section,.projects,.education,.certificates{
+  .certificates,.projects,.education{
   page-break-inside:avoid;
   }
 }
@@ -79,5 +79,6 @@ a { color: #3498db; text-decoration: none; }
     opacity: 1;             /* Ensures it's not transparent */
 
 }
+
 
 
