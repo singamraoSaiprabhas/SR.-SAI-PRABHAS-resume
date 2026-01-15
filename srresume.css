@@ -1,6 +1,10 @@
 @media print{
   .certificates,.projects,.education{
-  page-break-inside:avoid;
+    page-break-inside:avoid;
+    break-inside:avoid;
+  }
+  body{
+    zoom:90%
   }
 }
 @page {
@@ -14,7 +18,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     padding: 20px;
-    zoom:0.9;
+    
 }
 
 .resume-container {
@@ -79,6 +83,7 @@ a { color: #3498db; text-decoration: none; }
     opacity: 1;             /* Ensures it's not transparent */
 
 }
+
 
 
 
