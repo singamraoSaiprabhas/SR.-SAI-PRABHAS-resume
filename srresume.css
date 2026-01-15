@@ -1,3 +1,8 @@
+@media print{
+  section,.projects.education{
+  page-break-inside:avoid;
+  }
+}
 @page {
   size: A4;
   margin: 0;
@@ -9,6 +14,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     padding: 20px;
+    zoom:0.9;
 }
 
 .resume-container {
@@ -71,4 +77,5 @@ a { color: #3498db; text-decoration: none; }
     background-color: #333; /* This makes it a dark charcoal/black */
     margin-top: 5px;        /* Spacing above the line */
     opacity: 1;             /* Ensures it's not transparent */
+
 }
