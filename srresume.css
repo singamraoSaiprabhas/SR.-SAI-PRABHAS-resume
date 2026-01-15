@@ -80,6 +80,22 @@ a { color: #3498db; text-decoration: none; }
     opacity: 1;             /* Ensures it's not transparent */
 
 }
+.skill-item {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+
+}
+.skill-item a{
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+}
+.certificates-grid {
+    display: block;
+    width :100%;
+}
+
 
 
 
