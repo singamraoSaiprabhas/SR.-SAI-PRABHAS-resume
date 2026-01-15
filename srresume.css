@@ -1,0 +1,74 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 { margin: 0; color: #2c3e50; }
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 1px solid #ddd;
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+
+.skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project h3 { margin-bottom: 5px; color: #34495e; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.two-column section { flex: 1; }
+
+a { color: #3498db; text-decoration: none; }
+
+.project-line {
+    border: none;           /* Remove the default gray shadow */
+    height: 3px;            /* This makes it thicker (adjust as needed) */
+    background-color: #333; /* This makes it a dark charcoal/black */
+    margin-top: 5px;        /* Spacing above the line */
+    opacity: 1;             /* Ensures it's not transparent */
+}
